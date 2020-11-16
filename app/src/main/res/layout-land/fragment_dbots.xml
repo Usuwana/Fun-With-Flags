@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+<FrameLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment_dbots">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="490dp">
+
+        <Button
+            android:id="@+id/q1"
+            android:layout_width="134dp"
+            android:layout_height="73dp"
+            android:layout_marginStart="46dp"
+            android:layout_marginLeft="46dp"
+            android:layout_marginTop="31dp"
+            android:layout_marginEnd="88dp"
+            android:layout_marginRight="88dp"
+            android:layout_marginBottom="29dp"
+            android:text="What is the capital city of Botswana?"
+            app:layout_constraintBottom_toTopOf="@+id/q3"
+            app:layout_constraintEnd_toStartOf="@+id/q2"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/q2"
+            android:layout_width="207dp"
+            android:layout_height="68dp"
+            android:layout_marginTop="31dp"
+            android:layout_marginEnd="45dp"
+            android:layout_marginRight="45dp"
+            android:layout_marginBottom="34dp"
+            android:text="What is the national language of Botswana?"
+            app:layout_constraintBottom_toTopOf="@+id/q4"
+            app:layout_constraintEnd_toStartOf="@+id/q5"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/q3"
+            android:layout_width="142dp"
+            android:layout_height="73dp"
+            android:layout_marginStart="46dp"
+            android:layout_marginLeft="46dp"
+            android:layout_marginEnd="80dp"
+            android:layout_marginRight="80dp"
+            android:layout_marginBottom="248dp"
+            android:text="What is the national bird of Botswana?"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/q4"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <Button
+            android:id="@+id/q4"
+            android:layout_width="155dp"
+            android:layout_height="79dp"
+            android:layout_marginEnd="120dp"
+            android:layout_marginRight="120dp"
+            android:layout_marginBottom="242dp"
+            android:text="What is a person from Botswana called?"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/finished" />
+
+        <Button
+            android:id="@+id/q5"
+            android:layout_width="184dp"
+            android:layout_height="108dp"
+            android:layout_marginTop="49dp"
+            android:layout_marginBottom="43dp"
+            android:text="What is the population of Botswana?"
+            app:layout_constraintBottom_toTopOf="@+id/finished"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/finished"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="73dp"
+            android:layout_marginRight="73dp"
+            android:layout_marginBottom="242dp"
+            android:text="finished"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>
+</HorizontalScrollView>

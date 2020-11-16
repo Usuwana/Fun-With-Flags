@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment_dnamibia">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="389dp">
+
+        <Button
+            android:id="@+id/q1"
+            android:layout_width="164dp"
+            android:layout_height="68dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="35dp"
+            android:layout_marginRight="35dp"
+            android:layout_marginBottom="13dp"
+            android:text="Where does Namibia get its name from?"
+            app:layout_constraintBottom_toTopOf="@+id/q3"
+            app:layout_constraintEnd_toStartOf="@+id/q2"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/q2"
+            android:layout_width="151dp"
+            android:layout_height="71dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="45dp"
+            android:layout_marginRight="45dp"
+            android:layout_marginBottom="10dp"
+            android:text="How many ethnic groups are in Namibia?"
+            app:layout_constraintBottom_toTopOf="@+id/q4"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/q3"
+            android:layout_width="171dp"
+            android:layout_height="68dp"
+            android:layout_marginStart="23dp"
+            android:layout_marginLeft="23dp"
+            android:layout_marginEnd="21dp"
+            android:layout_marginRight="21dp"
+            android:layout_marginBottom="24dp"
+            android:text="What is the highest mountain in Namibia?"
+            app:layout_constraintBottom_toTopOf="@+id/q5"
+            app:layout_constraintEnd_toStartOf="@+id/q4"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <Button
+            android:id="@+id/q4"
+            android:layout_width="180dp"
+            android:layout_height="88dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="7dp"
+            android:text="Namibia has the largest population of _________ in the world"
+            app:layout_constraintBottom_toTopOf="@+id/q6"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <Button
+            android:id="@+id/q5"
+            android:layout_width="150dp"
+            android:layout_height="71dp"
+            android:layout_marginStart="23dp"
+            android:layout_marginLeft="23dp"
+            android:layout_marginEnd="12dp"
+            android:layout_marginRight="12dp"
+            android:layout_marginBottom="8dp"
+            android:text="Namibia was the first country to _________"
+            app:layout_constraintBottom_toTopOf="@+id/q7"
+            app:layout_constraintEnd_toStartOf="@+id/q6"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <Button
+            android:id="@+id/q6"
+            android:layout_width="214dp"
+            android:layout_height="78dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="8dp"
+            android:text="Which famous couple chose to give birth to their child in Namibia?"
+            app:layout_constraintBottom_toTopOf="@+id/q7"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <Button
+            android:id="@+id/q7"
+            android:layout_width="388dp"
+            android:layout_height="64dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginEnd="7dp"
+            android:layout_marginRight="7dp"
+            android:layout_marginBottom="56dp"
+            android:text="Where was Namibia ranked for freedom of press in the world?"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <Button
+            android:id="@+id/finished"
+            android:layout_width="102dp"
+            android:layout_height="42dp"
+            android:layout_marginStart="155dp"
+            android:layout_marginLeft="155dp"
+            android:layout_marginEnd="154dp"
+            android:layout_marginRight="154dp"
+            android:layout_marginBottom="13dp"
+            android:text="finish"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout><![CDATA[" />
+
+        ]]>
+
+</FrameLayout>
+</ScrollView>

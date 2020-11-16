@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+<FrameLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment_dmalawi">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="434dp">
+
+        <Button
+            android:id="@+id/q1"
+            android:layout_width="154dp"
+            android:layout_height="73dp"
+            android:layout_marginTop="42dp"
+            android:layout_marginEnd="34dp"
+            android:layout_marginRight="34dp"
+            android:layout_marginBottom="16dp"
+            android:text="What is the nickname of Lake Malawi?"
+            app:layout_constraintBottom_toTopOf="@+id/q7"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/q2"
+            android:layout_width="170dp"
+            android:layout_height="73dp"
+            android:layout_marginEnd="62dp"
+            android:layout_marginRight="62dp"
+            android:layout_marginBottom="42dp"
+            android:text="What was Malawai formally known as?"
+            app:layout_constraintBottom_toTopOf="@+id/finished"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <Button
+            android:id="@+id/q3"
+            android:layout_width="154dp"
+            android:layout_height="85dp"
+            android:layout_marginStart="25dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginEnd="21dp"
+            android:layout_marginRight="21dp"
+            android:layout_marginBottom="19dp"
+            android:text="How many times has Malawi featured in the Olympics?"
+            app:layout_constraintBottom_toTopOf="@+id/q5"
+            app:layout_constraintEnd_toStartOf="@+id/q7"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <Button
+            android:id="@+id/q4"
+            android:layout_width="154dp"
+            android:layout_height="69dp"
+            android:layout_marginStart="25dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginEnd="54dp"
+            android:layout_marginRight="54dp"
+            android:layout_marginBottom="37dp"
+            android:text="What is Malawi's biggest export?"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/finished"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <Button
+            android:id="@+id/q5"
+            android:layout_width="126dp"
+            android:layout_height="73dp"
+            android:layout_marginStart="25dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginEnd="28dp"
+            android:layout_marginRight="28dp"
+            android:layout_marginBottom="20dp"
+            android:text="What does Malawi mean?"
+            app:layout_constraintBottom_toTopOf="@+id/q4"
+            app:layout_constraintEnd_toStartOf="@+id/q2"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <Button
+            android:id="@+id/q6"
+            android:layout_width="175dp"
+            android:layout_height="76dp"
+            android:layout_marginStart="25dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="39dp"
+            android:layout_marginEnd="23dp"
+            android:layout_marginRight="23dp"
+            android:layout_marginBottom="16dp"
+            android:text="What is an important part of Malawi culture?"
+            app:layout_constraintBottom_toTopOf="@+id/q3"
+            app:layout_constraintEnd_toStartOf="@+id/q1"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/q7"
+            android:layout_width="161dp"
+            android:layout_height="90dp"
+            android:layout_marginEnd="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginBottom="14dp"
+            android:text="What percentage of the Malawi population stay in rural areas?"
+            app:layout_constraintBottom_toTopOf="@+id/q2"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <Button
+            android:id="@+id/finished"
+            android:layout_width="128dp"
+            android:layout_height="47dp"
+            android:layout_marginEnd="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginBottom="37dp"
+            android:text="finish"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</FrameLayout>
+</ScrollView>

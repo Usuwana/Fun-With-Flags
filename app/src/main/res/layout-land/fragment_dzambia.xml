@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+<FrameLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment_dzambia">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="383dp">
+
+        <Button
+            android:id="@+id/q1"
+            android:layout_width="174dp"
+            android:layout_height="92dp"
+            android:layout_marginStart="53dp"
+            android:layout_marginLeft="53dp"
+            android:layout_marginTop="34dp"
+            android:layout_marginEnd="26dp"
+            android:layout_marginRight="26dp"
+            android:layout_marginBottom="23dp"
+            android:text="What is one of Zambia's largest exports?"
+            app:layout_constraintBottom_toTopOf="@+id/q3"
+            app:layout_constraintEnd_toStartOf="@+id/q5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/q2"
+            android:layout_width="185dp"
+            android:layout_height="96dp"
+            android:layout_marginTop="34dp"
+            android:layout_marginEnd="138dp"
+            android:layout_marginRight="138dp"
+            android:layout_marginBottom="23dp"
+            android:text="What was Zambia named after?"
+            app:layout_constraintBottom_toTopOf="@+id/q4"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/q3"
+            android:layout_width="154dp"
+            android:layout_height="85dp"
+            android:layout_marginStart="53dp"
+            android:layout_marginLeft="53dp"
+            android:layout_marginEnd="46dp"
+            android:layout_marginRight="46dp"
+            android:layout_marginBottom="149dp"
+            android:text="What is the Zambian motto?"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/q6"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <Button
+            android:id="@+id/q4"
+            android:layout_width="164dp"
+            android:layout_height="93dp"
+            android:layout_marginEnd="54dp"
+            android:layout_marginRight="54dp"
+            android:layout_marginBottom="137dp"
+            android:text="What is the timezone in Zambia?"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/finished" />
+
+        <Button
+            android:id="@+id/q5"
+            android:layout_width="162dp"
+            android:layout_height="102dp"
+            android:layout_marginTop="34dp"
+            android:layout_marginEnd="33dp"
+            android:layout_marginRight="33dp"
+            android:layout_marginBottom="13dp"
+            android:text="What is the national game in Zambia?"
+            app:layout_constraintBottom_toTopOf="@+id/q6"
+            app:layout_constraintEnd_toStartOf="@+id/q2"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/q6"
+            android:layout_width="176dp"
+            android:layout_height="97dp"
+            android:layout_marginEnd="19dp"
+            android:layout_marginRight="19dp"
+            android:layout_marginBottom="137dp"
+            android:text="What does the red in the Zambian flag represent?"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/q4" />
+
+        <Button
+            android:id="@+id/finished"
+            android:layout_width="105dp"
+            android:layout_height="101dp"
+            android:layout_marginTop="136dp"
+            android:layout_marginBottom="146dp"
+            android:text="finish"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</FrameLayout>
+</HorizontalScrollView>

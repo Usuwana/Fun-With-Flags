@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+<FrameLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment_b">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageButton
+            android:id="@+id/sa"
+            android:layout_width="93dp"
+            android:layout_height="71dp"
+            android:layout_marginTop="71dp"
+            android:layout_marginEnd="55dp"
+            android:layout_marginRight="55dp"
+            android:layout_marginBottom="54dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/bandeira_da_africa_do_sul"
+            app:layout_constraintBottom_toTopOf="@+id/cameroon"
+            app:layout_constraintEnd_toStartOf="@+id/ghana"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageButton
+            android:id="@+id/ethiopia"
+            android:layout_width="93dp"
+            android:layout_height="71dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginBottom="72dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/ethiopia_flag_medium"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/moz" />
+
+        <ImageButton
+            android:id="@+id/zambia"
+            android:layout_width="93dp"
+            android:layout_height="71dp"
+            android:layout_marginTop="71dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginBottom="54dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/flag_800"
+            app:layout_constraintBottom_toTopOf="@+id/ethiopia"
+            app:layout_constraintEnd_toStartOf="@+id/tanzania"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageButton
+            android:id="@+id/ivorycoast"
+            android:layout_width="93dp"
+            android:layout_height="71dp"
+            android:layout_marginTop="71dp"
+            android:layout_marginEnd="39dp"
+            android:layout_marginRight="39dp"
+            android:layout_marginBottom="54dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/flag_800__10_"
+            app:layout_constraintBottom_toTopOf="@+id/rwanda"
+            app:layout_constraintEnd_toStartOf="@+id/zambia"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageButton
+            android:id="@+id/moz"
+            android:layout_width="93dp"
+            android:layout_height="71dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginBottom="72dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/flag_800__11_"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/kenya" />
+
+        <ImageButton
+            android:id="@+id/nigeria"
+            android:layout_width="93dp"
+            android:layout_height="71dp"
+            android:layout_marginTop="71dp"
+            android:layout_marginEnd="28dp"
+            android:layout_marginRight="28dp"
+            android:layout_marginBottom="54dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/flag_800__1_"
+            app:layout_constraintBottom_toTopOf="@+id/kenya"
+            app:layout_constraintEnd_toStartOf="@+id/uganda"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageButton
+            android:id="@+id/namibia"
+            android:layout_width="93dp"
+            android:layout_height="71dp"
+            android:layout_marginEnd="45dp"
+            android:layout_marginRight="45dp"
+            android:layout_marginBottom="72dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/flag_800__2_"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/rwanda" />
+
+        <ImageButton
+            android:id="@+id/rwanda"
+            android:layout_width="93dp"
+            android:layout_height="71dp"
+            android:layout_marginEnd="39dp"
+            android:layout_marginRight="39dp"
+            android:layout_marginBottom="72dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/flag_800__3_"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/ethiopia" />
+
+        <ImageButton
+            android:id="@+id/malawi"
+            android:layout_width="93dp"
+            android:layout_height="71dp"
+            android:layout_marginEnd="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginBottom="72dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/flag_800__4_"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <ImageButton
+            android:id="@+id/ghana"
+            android:layout_width="93dp"
+            android:layout_height="71dp"
+            android:layout_marginTop="71dp"
+            android:layout_marginEnd="45dp"
+            android:layout_marginRight="45dp"
+            android:layout_marginBottom="54dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/flag_800__5_"
+            app:layout_constraintBottom_toTopOf="@+id/namibia"
+            app:layout_constraintEnd_toStartOf="@+id/ivorycoast"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageButton
+            android:id="@+id/kenya"
+            android:layout_width="93dp"
+            android:layout_height="71dp"
+            android:layout_marginEnd="26dp"
+            android:layout_marginRight="26dp"
+            android:layout_marginBottom="72dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/flag_800__6_"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/malawi" />
+
+        <ImageButton
+            android:id="@+id/cameroon"
+            android:layout_width="93dp"
+            android:layout_height="71dp"
+            android:layout_marginEnd="55dp"
+            android:layout_marginRight="55dp"
+            android:layout_marginBottom="72dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/flag_800__7_"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/namibia" />
+
+        <ImageButton
+            android:id="@+id/uganda"
+            android:layout_width="93dp"
+            android:layout_height="71dp"
+            android:layout_marginTop="71dp"
+            android:layout_marginEnd="3dp"
+            android:layout_marginRight="3dp"
+            android:layout_marginBottom="54dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/flag_800__8_"
+            app:layout_constraintBottom_toTopOf="@+id/malawi"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageButton
+            android:id="@+id/tanzania"
+            android:layout_width="93dp"
+            android:layout_height="71dp"
+            android:layout_marginTop="71dp"
+            android:layout_marginEnd="25dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginBottom="54dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/flag_800__9_"
+            app:layout_constraintBottom_toTopOf="@+id/moz"
+            app:layout_constraintEnd_toStartOf="@+id/nigeria"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageButton
+            android:id="@+id/zim"
+            android:layout_width="93dp"
+            android:layout_height="71dp"
+            android:layout_marginStart="56dp"
+            android:layout_marginLeft="56dp"
+            android:layout_marginTop="71dp"
+            android:layout_marginEnd="55dp"
+            android:layout_marginRight="55dp"
+            android:layout_marginBottom="54dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/flag_of_zimbabwe_svg"
+            app:layout_constraintBottom_toTopOf="@+id/bots"
+            app:layout_constraintEnd_toStartOf="@+id/sa"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageButton
+            android:id="@+id/bots"
+            android:layout_width="93dp"
+            android:layout_height="71dp"
+            android:layout_marginStart="56dp"
+            android:layout_marginLeft="56dp"
+            android:layout_marginEnd="55dp"
+            android:layout_marginRight="55dp"
+            android:layout_marginBottom="72dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/glag_of_botswana"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/cameroon"
+            app:layout_constraintStart_toStartOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>
+</HorizontalScrollView>

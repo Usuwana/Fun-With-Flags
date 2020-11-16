@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+<FrameLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment_dnigeria">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="468dp">
+
+        <Button
+            android:id="@+id/q1"
+            android:layout_width="198dp"
+            android:layout_height="89dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="57dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="23dp"
+            android:text="Nigeria is the ___________ most populous country in the world."
+            app:layout_constraintBottom_toTopOf="@+id/q3"
+            app:layout_constraintEnd_toStartOf="@+id/q7"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/q2"
+            android:layout_width="182dp"
+            android:layout_height="78dp"
+            android:layout_marginTop="71dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginBottom="13dp"
+            android:text="What is the local town of Igbo-Ora known as?"
+            app:layout_constraintBottom_toTopOf="@+id/q4"
+            app:layout_constraintEnd_toStartOf="@+id/q8"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/q3"
+            android:layout_width="181dp"
+            android:layout_height="66dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginEnd="37dp"
+            android:layout_marginRight="37dp"
+            android:layout_marginBottom="233dp"
+            android:text="What is the former capital of Nigeria?"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/q5"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <Button
+            android:id="@+id/q4"
+            android:layout_width="178dp"
+            android:layout_height="73dp"
+            android:layout_marginEnd="29dp"
+            android:layout_marginRight="29dp"
+            android:layout_marginBottom="233dp"
+            android:text="What is the country's film industry known as?"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/q10" />
+
+        <Button
+            android:id="@+id/q5"
+            android:layout_width="144dp"
+            android:layout_height="60dp"
+            android:layout_marginEnd="33dp"
+            android:layout_marginRight="33dp"
+            android:layout_marginBottom="239dp"
+            android:text="What is Nigeria home to?"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/q4" />
+
+        <Button
+            android:id="@+id/q6"
+            android:layout_width="170dp"
+            android:layout_height="69dp"
+            android:layout_marginTop="77dp"
+            android:layout_marginEnd="78dp"
+            android:layout_marginRight="78dp"
+            android:layout_marginBottom="14dp"
+            android:text="What do Nigerians believe about the left hand?"
+            app:layout_constraintBottom_toTopOf="@+id/q9"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/q7"
+            android:layout_width="177dp"
+            android:layout_height="75dp"
+            android:layout_marginTop="71dp"
+            android:layout_marginEnd="25dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginBottom="23dp"
+            android:text="Is Nigeria in the British Commonwealth?"
+            app:layout_constraintBottom_toTopOf="@+id/q5"
+            app:layout_constraintEnd_toStartOf="@+id/q2"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/q8"
+            android:layout_width="138dp"
+            android:layout_height="74dp"
+            android:layout_marginTop="72dp"
+            android:layout_marginEnd="17dp"
+            android:layout_marginRight="17dp"
+            android:layout_marginBottom="16dp"
+            android:text="What is the official name for Nigeria?"
+            app:layout_constraintBottom_toTopOf="@+id/q10"
+            app:layout_constraintEnd_toStartOf="@+id/q6"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/q9"
+            android:layout_width="135dp"
+            android:layout_height="69dp"
+            android:layout_marginEnd="35dp"
+            android:layout_marginRight="35dp"
+            android:layout_marginBottom="239dp"
+            android:text="What is the largest city in Nigeria?"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/finished" />
+
+        <Button
+            android:id="@+id/q10"
+            android:layout_width="119dp"
+            android:layout_height="73dp"
+            android:layout_marginEnd="66dp"
+            android:layout_marginRight="66dp"
+            android:layout_marginBottom="233dp"
+            android:text="How many states are in Nigeria?"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/q9" />
+
+        <Button
+            android:id="@+id/finished"
+            android:layout_width="78dp"
+            android:layout_height="74dp"
+            android:layout_marginTop="155dp"
+            android:layout_marginBottom="239dp"
+            android:text="finish"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</FrameLayout>
+</HorizontalScrollView>
