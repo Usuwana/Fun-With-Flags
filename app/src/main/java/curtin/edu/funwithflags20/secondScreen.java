@@ -21,9 +21,9 @@ public class secondScreen extends AppCompatActivity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_second_screen);
 
-        Fragment_a frag2 = new Fragment_a();
+
         FragmentManager fm = getSupportFragmentManager();
-        fm.beginTransaction().add(R.id.frameLayout2, frag2).commit();
+
 
         Fragment_b frag1 = new Fragment_b();
         fm.beginTransaction().add(R.id.frameLayout3, frag1).commit();
